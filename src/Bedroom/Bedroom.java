@@ -66,9 +66,9 @@ public class Bedroom {
     }
 
 
-    public String toString() {
-
-        return
+    public String toString() {// creating this method so java can actually print out a string
+        //you can just use this.name or can your Bedroom.this.name
+        return "The owner of the room's name is " +this.name+"." +" The color of door is " + door.getColor() +" and there is a new desk that is made of " + desk.getMaterial() +". " +"Their bed is a size "+ bed.getSize()+".";
     }
 
     public void make(){

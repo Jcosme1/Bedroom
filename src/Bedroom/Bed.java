@@ -12,6 +12,39 @@ public class Bed {
         this.color = color;
         this.material = material;
     }
+
+    public int getNumberOfPillows() {
+        return numberOfPillows;
+    }
+
+    public void setNumberOfPillows(int numberOfPillows) {
+        this.numberOfPillows = numberOfPillows;
+    }
+
+    public String getSize() {
+        return size;
+    }
+
+    public void setSize(String size) {
+        this.size = size;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public String getMaterial() {
+        return material;
+    }
+
+    public void setMaterial(String material) {
+        this.material = material;
+    }
+
     public void make(){
         System.out.println("make() is from  ");
     }
